@@ -5,7 +5,10 @@
 
 **Program Studi**: S1 Ilmu Komputer / Informatika  
 **Fakultas**: Matematika dan Ilmu Pengetahuan Alam (FMIPA)  
-**Kelompok**: VelAstra Capstone Engineering Team  
+**Kelompok**: Tim Pengembang Capstone DIKE FMIPA UGM  
+**Anggota Tim**:  
+1. Aji Kusuma Putra (NIM: 22/503701/PA/21657)  
+2. Rayhan Haldi Hermawan (NIM: 24/545406/PA/23176)  
 **Kontak**: Rayhanhaldi13@gmail.com | [GitHub Repositori](https://github.com/VelAstra)  
 **Tahun Akademik**: 2026/2027  
 

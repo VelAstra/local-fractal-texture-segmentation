@@ -45,7 +45,9 @@ def build_pdf_report():
     identitas_text = """
     <b>Disusun Oleh:</b><br/>
     <b>Tim Pengembang Capstone DIKE FMIPA UGM</b><br/><br/>
-    <b>Ketua Proyek:</b> Rayhan M. P. &nbsp;&nbsp;|&nbsp;&nbsp; <b>NIM:</b> 22/498765/PA/21345<br/>
+    <b>Anggota Tim:</b><br/>
+    1. Aji Kusuma Putra &nbsp;&nbsp;|&nbsp;&nbsp; <b>NIM:</b> 22/503701/PA/21657<br/>
+    2. Rayhan Haldi Hermawan &nbsp;&nbsp;|&nbsp;&nbsp; <b>NIM:</b> 24/545406/PA/23176<br/><br/>
     <b>Program Studi:</b> S1 Ilmu Komputer<br/>
     <b>Tahun Akademik:</b> 2026/2027
     """

@@ -2,6 +2,9 @@
 
 > **Proyek Capstone 3**: Segmentasi Citra Tekstur Menggunakan Local Fractal Dimension (LFD) dan Adaptive Clustering  
 > **Program Studi**: S1 Ilmu Komputer / Informatika, FMIPA, Universitas Gadjah Mada  
+> **Anggota Tim Pengembang**:  
+> - Aji Kusuma Putra (NIM: 22/503701/PA/21657)  
+> - Rayhan Haldi Hermawan (NIM: 24/545406/PA/23176)  
 
 ---
 
