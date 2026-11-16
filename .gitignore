@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+sample_data/*.png
+!sample_data/textures.png
+!sample_data/textures_mask.png
