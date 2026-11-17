@@ -11,11 +11,9 @@
 ## Ringkasan Proyek
 Menggunakan *Differential Box Counting* (DBC) untuk menghitung dimensi fraktal lokal (*Local Fractal Dimension* - LFD) pada setiap piksel citra, menghasilkan peta kekasaran spasial 2D kontinu, dan melakukan segmentasi wilayah tekstur menggunakan ambang batas Otsu serta evaluasi IoU dan Dice Coefficient.
 
-### Pembagian Tugas Tim 4 Mahasiswa
-1. **Mahasiswa 1**: Preprocessing Citra & Normalisasi Kontras Tekstur.
-2. **Mahasiswa 2**: Ekstraksi Fitur DBC & Pembangkitan Peta Dimensi Fraktal Lokal (LFD).
-3. **Mahasiswa 3**: Modul Segmentasi Adaptif (Otsu Thresholding & K-Means Clustering).
-4. **Mahasiswa 4**: Antarmuka Grafis (Tkinter GUI), Visualisasi Peta Panas, & Evaluasi Metrik (IoU, Dice).
+### Pembagian Tugas Tim (2 Mahasiswa)
+1. **Aji Kusuma Putra** (`22/503701/PA/21657`): Preprocessing citra tekstur, normalisasi kontras, sintesis pola tekstur komposit, perancangan algoritma Differential Box Counting (DBC), dan generator peta LFD kontinu. (Modul: `sample_data/generate_textures.py`, `core/local_fractal.py`).
+2. **Rayhan Haldi Hermawan** (`24/545406/PA/23176`): Segmentasi adaptif Otsu, klasterisasi K-Means multi-wilayah, Desktop GUI Tkinter, visualisasi peta panas LFD, integrasi CLI, dan evaluasi metrik kuantitatif (IoU, Dice, Pixel Accuracy). (Modul: `core/segmentation.py`, `core/evaluation.py`, `gui/app.py`, `cli.py`).
 
 ---
 

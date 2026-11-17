@@ -32,11 +32,9 @@ Tekstur alami memiliki variasi mikro yang sulit dikarakterisasi hanya dengan fil
 2. Bagaimana memisahkan batas wilayah tekstur berdasarkan distribusi nilai LFD menggunakan ambang adaptif Otsu?
 3. Bagaimana mengukur akurasi segmentasi terhadap ground-truth menggunakan metrik IoU dan Dice Coefficient?
 
-### 1.3 Pembagian Tugas Tim (4 Mahasiswa)
-1. **Mahasiswa 1**: *Image Preprocessing* & Normalisasi Kontras Tekstur.
-2. **Mahasiswa 2**: Ekstraksi Fitur *Differential Box Counting* (DBC) & Pembangkitan Peta LFD.
-3. **Mahasiswa 3**: Modul Segmentasi Adaptif (Otsu Thresholding & K-Means Clustering).
-4. **Mahasiswa 4**: Antarmuka Grafis (Tkinter GUI), Visualisasi Peta Panas LFD, & Evaluasi Metrik (IoU, Dice).
+### 1.3 Pembagian Tugas Tim Capstone (2 Mahasiswa)
+1. **Aji Kusuma Putra** (NIM: 22/503701/PA/21657): Preprocessing citra tekstur, normalisasi kontras, sintesis pola tekstur komposit, perancangan algoritma Differential Box Counting (DBC), dan generator peta LFD kontinu. (`sample_data/generate_textures.py`, `core/local_fractal.py`).
+2. **Rayhan Haldi Hermawan** (NIM: 24/545406/PA/23176): Segmentasi adaptif Otsu, klasterisasi K-Means multi-wilayah, Desktop GUI Tkinter, visualisasi peta panas LFD, integrasi CLI, dan evaluasi metrik kuantitatif (IoU, Dice, Pixel Accuracy). (`core/segmentation.py`, `core/evaluation.py`, `gui/app.py`, `cli.py`).
 
 ---
 

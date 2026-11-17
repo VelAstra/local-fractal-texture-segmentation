@@ -189,8 +189,8 @@ def build_pdf_report():
         styles["AcademicBody"]
     ))
 
-    story.append(Paragraph("3.2 Pembagian Tugas Tim Capstone (4 Mahasiswa)", styles["SectionHeading"]))
-    story.append(Paragraph("Tabel 3.1: Matriks Pembagian Tugas Rekayasa Tim Capstone (4 Mahasiswa)", styles["TableCaption"]))
+    story.append(Paragraph("3.2 Pembagian Tugas Tim Capstone (2 Mahasiswa)", styles["SectionHeading"]))
+    story.append(Paragraph("Tabel 3.1: Matriks Pembagian Tugas Rekayasa Tim Capstone (2 Mahasiswa)", styles["TableCaption"]))
 
     t3_data = [
         [
@@ -201,30 +201,18 @@ def build_pdf_report():
         ],
         [
             Paragraph("1", styles["TableCellCenter"]),
-            Paragraph("Mahasiswa 1", styles["TableCellLeft"]),
-            Paragraph("Preprocessing citra tekstur, sintesis pola tekstur komposit.", styles["TableCellLeft"]),
-            Paragraph("sample_data/generate_textures.py", styles["TableCellCode"]),
+            Paragraph("Aji Kusuma Putra<br/><font size=7.5 color='#4A5568'>NIM: 22/503701/PA/21657</font>", styles["TableCellLeft"]),
+            Paragraph("Preprocessing citra tekstur, normalisasi kontras, sintesis pola tekstur komposit, perancangan algoritma Differential Box Counting (DBC), dan generator peta LFD kontinu.", styles["TableCellLeft"]),
+            Paragraph("sample_data/generate_textures.py<br/>core/local_fractal.py", styles["TableCellCode"]),
         ],
         [
             Paragraph("2", styles["TableCellCenter"]),
-            Paragraph("Mahasiswa 2", styles["TableCellLeft"]),
-            Paragraph("Algoritma Differential Box Counting dan generator peta LFD.", styles["TableCellLeft"]),
-            Paragraph("core/local_fractal.py", styles["TableCellCode"]),
-        ],
-        [
-            Paragraph("3", styles["TableCellCenter"]),
-            Paragraph("Mahasiswa 3", styles["TableCellLeft"]),
-            Paragraph("Segmentasi adaptif Otsu dan klasterisasi K-Means multi-wilayah.", styles["TableCellLeft"]),
-            Paragraph("core/segmentation.py", styles["TableCellCode"]),
-        ],
-        [
-            Paragraph("4", styles["TableCellCenter"]),
-            Paragraph("Mahasiswa 4", styles["TableCellLeft"]),
-            Paragraph("Desktop GUI Tkinter, visualisasi peta panas LFD, metrik IoU/Dice.", styles["TableCellLeft"]),
-            Paragraph("core/evaluation.py<br/>gui/app.py, cli.py", styles["TableCellCode"]),
+            Paragraph("Rayhan Haldi Hermawan<br/><font size=7.5 color='#4A5568'>NIM: 24/545406/PA/23176</font>", styles["TableCellLeft"]),
+            Paragraph("Segmentasi adaptif Otsu, klasterisasi K-Means multi-wilayah, Desktop GUI Tkinter, visualisasi peta panas LFD, integrasi CLI, dan evaluasi metrik kuantitatif (IoU, Dice, Pixel Accuracy).", styles["TableCellLeft"]),
+            Paragraph("core/segmentation.py<br/>core/evaluation.py<br/>gui/app.py, cli.py", styles["TableCellCode"]),
         ],
     ]
-    t3_table = Table(t3_data, colWidths=[24, 76, 196, 100])
+    t3_table = Table(t3_data, colWidths=[24, 106, 166, 100])
     t3_table.setStyle(get_booktabs_style(len(t3_data)))
     story.append(t3_table)
     story.append(Spacer(1, 0.4 * cm))
